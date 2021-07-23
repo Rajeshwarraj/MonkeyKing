@@ -140,7 +140,7 @@ function obstacles(){
     obstacle = createSprite(620,253,50,50);
     obstacle.addAnimation("rock", obstacleImage);
     obstacle.setCollider("circle", 0, 0, 180);
-    obstacle.scale = 0.13 ;
+    obstacle.scale = 0.10 ;
     obstacle.velocityX = -(4+score*1.5/100);
     obstacle.lifetime = 220;
     obstacleGroup.add(obstacle);
